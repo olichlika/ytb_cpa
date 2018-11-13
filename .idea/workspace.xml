@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de2440c4-562c-4351-b394-6b4b71e612b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aaa.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aaa.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload_module/cCover/cCover.py" afterPath="$PROJECT_DIR$/upload_module/cCover/cCover.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,16 +84,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aaa.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aaa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cUpload.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload_module/cUpload.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cCover.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cCover.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upload_module/cCover/cCover.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="-1591">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -176,7 +167,6 @@
         <option value="$PROJECT_DIR$/upload_module/cYoutube/cYoutube.py" />
         <option value="$PROJECT_DIR$/getOAUTH.py" />
         <option value="$PROJECT_DIR$/upload_module/cCover/__init__.py" />
-        <option value="$PROJECT_DIR$/upload_module/cCover/cCover.py" />
         <option value="$PROJECT_DIR$/upload_module/cFFmpeg/cFFmpeg.py" />
         <option value="$PROJECT_DIR$/upload_module/cRandomString.py" />
         <option value="$PROJECT_DIR$/upload_module/mysql.py" />
@@ -184,6 +174,7 @@
         <option value="$PROJECT_DIR$/upload_module/cYoutube.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/aaa.py" />
+        <option value="$PROJECT_DIR$/upload_module/cCover/cCover.py" />
       </list>
     </option>
   </component>
@@ -226,6 +217,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ytb_cpa_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ytb_cpa_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ytb_cpa_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ytb_cpa_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ytb_cpa_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cCover" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,9 +558,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1541" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2288192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2288192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -587,7 +609,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -775,14 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload_module/cCover/cCover.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload_module/cRandomString.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
@@ -875,6 +889,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload_module/cCover/cCover.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1591">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>

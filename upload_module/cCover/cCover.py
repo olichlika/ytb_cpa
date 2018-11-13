@@ -7,7 +7,6 @@ import os
 import urllib2
 import random
 from random import Random
-import cv2
 import shutil
 import colorsys
 from PIL import Image, ImageDraw, ImageFont
