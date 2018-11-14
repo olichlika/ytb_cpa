@@ -26,20 +26,20 @@ class cUpload(object):
                 skinURL = d[2]
 
                 # print skinName, skinURL
-                #
-                # #制作封面
-                # cover = cCover(skinURL, 1280, 720, 'EN').makeCoverPic()
-                # print cover
-                #
-                # #制作上传视频
-                # video = cFFmpeg(skinName).run()
-                # print video
-                #
-                # #开始上传
-                # video_id = mUpload.upload_video(video, skinName)
-                #
-                # #上传封面
-                # mUpload.Upload_thumbnail(video_id, cover)
+
+                #制作封面
+                cover = cCover(skinURL, 1280, 720, 'EN').makeCoverPic()
+                print cover
+
+                #制作上传视频
+                video = cFFmpeg(skinName).run()
+                print video
+
+                #开始上传
+                video_id = mUpload.upload_video(video, skinName)
+
+                #上传封面
+                mUpload.Upload_thumbnail(video_id, cover)
 
                 #成功插入数据库
                 db.insert_new_row(self.oauth, skinName)

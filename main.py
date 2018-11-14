@@ -9,11 +9,13 @@ import time
 import signal
 import sys
 from upload_module.cUpload import cUpload
+from crawl_module.cFortniteSpider import cFortniteSpider
 
 def crawl():
     while 1:
         print "开始爬取新皮肤"
-        time.sleep(2) #休息24小时
+        cFortniteSpider.run()
+        time.sleep(24 * 60 * 60) #休息24小时
 
 
 def upload():
@@ -28,7 +30,8 @@ def upload():
         for oauth_file in oauth_files_list:
             print "正在上传:" + oauth_file
             #查询返回fortnite_skin_table表不包含在fortnite_skin_ytb_table中的字段
-            # cUpload(oauth_file).upload(10)
+            cUpload(oauth_file).upload(10) #上传10个
+
         time.sleep(10) #休息10秒
 
 def quit(signum, frame):
