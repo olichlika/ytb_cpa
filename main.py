@@ -6,12 +6,14 @@
 import threading
 import os
 import time
+import signal
+import sys
 from upload_module.cUpload import cUpload
 
 def crawl():
     while 1:
         print "开始爬取新皮肤"
-        time.sleep(15) #休息24小时
+        time.sleep(2) #休息24小时
 
 
 def upload():
@@ -29,29 +31,29 @@ def upload():
             # cUpload(oauth_file).upload(10)
         time.sleep(10) #休息10秒
 
-def a():
-    while 1:
-        print 1111
-        time.sleep(1)
-def b():
-    while 1:
-        print 2222
-        time.sleep(3)
+def quit(signum, frame):
+    print 'You choose to stop me.'
+    sys.exit()
 
 def run():
-    threads = []
-    t = threading.Thread(target = upload)
-    threads.append(t)
+    try:
+        signal.signal(signal.SIGINT, quit)
+        signal.signal(signal.SIGTERM, quit)
 
-    t = threading.Thread(target = crawl)
-    threads.append(t)
+        a = threading.Thread(target = upload)
 
-    for t in threads:
-        t.start()
+        b = threading.Thread(target = crawl)
 
-    for t in threads:
-        t.join()
+        a.setDaemon(True)
+        a.start()
 
+        b.setDaemon(True)
+        b.start()
+
+        while True:
+            pass
+    except Exception, exc:
+        print exc
 
 if __name__ == "__main__":
     run()
