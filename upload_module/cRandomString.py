@@ -4,10 +4,17 @@
 # time: 2018/11/8 11:41 PM
 # functhion:
 import random
+import sys
+
+reload(sys)
+
+sys.setdefaultencoding('utf-8')
 
 class cRandomString():
     @staticmethod
     def RandomTitle(name):
+        # name = name.decode('utf8')
+        # print name
         platform = ["PS4", "XBOX", "PC", "NS", "IOS"]
         random.shuffle(platform)
         platform = "/".join(platform)
