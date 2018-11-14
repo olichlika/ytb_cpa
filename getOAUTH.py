@@ -19,8 +19,8 @@ def run():
     flow = flow_from_clientsecrets(CLIENT_SECRETS_FILE, scope=YOUTUBE_UPLOAD_SCOPE, message=MISSING_CLIENT_SECRETS_MESSAGE)
 
     # storage = Storage(homedir + '/oauth2.json')
-    num = 2
-    for i in range(0, num):
+    num = 10
+    for i in range(6, num):
         path = os.path.join(oauthdir, 'oauth' + str(i) + '.json')
         storage = Storage(path)
         credentials = storage.get()
